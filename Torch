@@ -1,0 +1,102 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "gpuType": "T4",
+      "authorship_tag": "ABX9TyOnY5TsJv0Fy4md+Bbv0LaH",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    },
+    "accelerator": "GPU"
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/Danil-Sharipov/Cor/blob/main/Torch\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "import torch\n",
+        "import numpy"
+      ],
+      "metadata": {
+        "id": "AGPvILm-Ckni"
+      },
+      "execution_count": 2,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "a = torch.ones([5,4])\n",
+        "b = torch.Tensor([[1,2,3,4],\n",
+        "                  [5,6,7,8],\n",
+        "                  [9,10,11,12],\n",
+        "                  [13,14,15,16],\n",
+        "                  [17,18,19,20]])"
+      ],
+      "metadata": {
+        "id": "856hLacsCsCc"
+      },
+      "execution_count": 16,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "limit=1\n",
+        "X = torch.tensor([[1, 2, 3], [4, 5, 6], [7, 8, 9]])"
+      ],
+      "metadata": {
+        "id": "QLdL8cgFDqRi"
+      },
+      "execution_count": 3,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "device=torch.device('cuda:0')\n",
+        "\n",
+        "print(torch.cuda.is_available())\n",
+        "X=X.to(device)\n",
+        "%time print(X[X>limit].sum())"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "zsQfnC_1FPFj",
+        "outputId": "c87c3aa8-a8f4-4db8-82fe-29f84bd8a7d2"
+      },
+      "execution_count": 5,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "True\n",
+            "tensor(44, device='cuda:0')\n",
+            "CPU times: user 1.02 ms, sys: 1.01 ms, total: 2.03 ms\n",
+            "Wall time: 40.1 ms\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
