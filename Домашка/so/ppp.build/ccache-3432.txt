@@ -1,0 +1,218 @@
+[2023-11-12T18:33:54.565798 3445 ] === CCACHE 4.5.1 STARTED =========================================
+[2023-11-12T18:33:54.565798 3445 ] Config: (default) absolute_paths_in_stderr = false
+[2023-11-12T18:33:54.565798 3445 ] Config: (default) base_dir = 
+[2023-11-12T18:33:54.565798 3445 ] Config: (environment) cache_dir = /home/danil/.cache/Nuitka/ccache
+[2023-11-12T18:33:54.565798 3445 ] Config: (default) compiler = 
+[2023-11-12T18:33:54.565798 3445 ] Config: (default) compiler_check = mtime
+[2023-11-12T18:33:54.565798 3445 ] Config: (default) compiler_type = auto
+[2023-11-12T18:33:54.565798 3445 ] Config: (default) compression = true
+[2023-11-12T18:33:54.565798 3445 ] Config: (default) compression_level = 0
+[2023-11-12T18:33:54.565798 3445 ] Config: (default) cpp_extension = 
+[2023-11-12T18:33:54.565798 3445 ] Config: (default) debug = false
+[2023-11-12T18:33:54.565798 3445 ] Config: (default) debug_dir = 
+[2023-11-12T18:33:54.565798 3445 ] Config: (default) depend_mode = false
+[2023-11-12T18:33:54.565798 3445 ] Config: (default) direct_mode = true
+[2023-11-12T18:33:54.565798 3445 ] Config: (default) disable = false
+[2023-11-12T18:33:54.565798 3445 ] Config: (default) extra_files_to_hash = 
+[2023-11-12T18:33:54.565798 3445 ] Config: (default) file_clone = false
+[2023-11-12T18:33:54.565798 3445 ] Config: (default) hard_link = false
+[2023-11-12T18:33:54.565798 3445 ] Config: (default) hash_dir = true
+[2023-11-12T18:33:54.565798 3445 ] Config: (default) ignore_headers_in_manifest = 
+[2023-11-12T18:33:54.565798 3445 ] Config: (default) ignore_options = 
+[2023-11-12T18:33:54.565798 3445 ] Config: (default) inode_cache = false
+[2023-11-12T18:33:54.565798 3445 ] Config: (default) keep_comments_cpp = false
+[2023-11-12T18:33:54.565798 3445 ] Config: (default) limit_multiple = 0.8
+[2023-11-12T18:33:54.565798 3445 ] Config: (environment) log_file = /home/danil/so/ppp.build/ccache-3432.txt
+[2023-11-12T18:33:54.565798 3445 ] Config: (default) max_files = 0
+[2023-11-12T18:33:54.565798 3445 ] Config: (default) max_size = 5.0G
+[2023-11-12T18:33:54.565798 3445 ] Config: (default) namespace = 
+[2023-11-12T18:33:54.565798 3445 ] Config: (default) path = 
+[2023-11-12T18:33:54.565798 3445 ] Config: (default) pch_external_checksum = false
+[2023-11-12T18:33:54.565798 3445 ] Config: (default) prefix_command = 
+[2023-11-12T18:33:54.565798 3445 ] Config: (default) prefix_command_cpp = 
+[2023-11-12T18:33:54.565798 3445 ] Config: (default) read_only = false
+[2023-11-12T18:33:54.565798 3445 ] Config: (default) read_only_direct = false
+[2023-11-12T18:33:54.565798 3445 ] Config: (default) recache = false
+[2023-11-12T18:33:54.565798 3445 ] Config: (default) reshare = false
+[2023-11-12T18:33:54.565798 3445 ] Config: (default) run_second_cpp = true
+[2023-11-12T18:33:54.565798 3445 ] Config: (default) secondary_storage = 
+[2023-11-12T18:33:54.565798 3445 ] Config: (environment) sloppiness = include_file_mtime, include_file_ctime
+[2023-11-12T18:33:54.565798 3445 ] Config: (default) stats = true
+[2023-11-12T18:33:54.565798 3445 ] Config: (default) stats_log = 
+[2023-11-12T18:33:54.565798 3445 ] Config: (default) temporary_dir = /run/user/1000/ccache-tmp
+[2023-11-12T18:33:54.565798 3445 ] Config: (default) umask = 
+[2023-11-12T18:33:54.565919 3445 ] Command line: /usr/bin/ccache /usr/bin/gcc -o __constants.os -c -std=c11 -fvisibility=hidden -fwrapv -pipe -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O3 -shared -fPIC -D__NUITKA_NO_ASSERT__ -D_NUITKA_CONSTANTS_FROM_INCBIN -D_NUITKA_FROZEN=0 -D_NUITKA_MODULE -I/home/danil/miniconda3/envs/mlops_env/include/python3.11 -I. -I/home/danil/miniconda3/envs/mlops_env/lib/python3.11/site-packages/nuitka/build/include -I/home/danil/miniconda3/envs/mlops_env/lib/python3.11/site-packages/nuitka/build/static_src __constants.c
+[2023-11-12T18:33:54.565930 3445 ] Hostname: LAPTOP-N6PDPSPL
+[2023-11-12T18:33:54.565933 3445 ] Working directory: /home/danil/so/ppp.build
+[2023-11-12T18:33:54.565936 3445 ] Compiler type: gcc
+[2023-11-12T18:33:54.566000 3445 ] Source file: __constants.c
+[2023-11-12T18:33:54.566010 3445 ] Object file: __constants.os
+[2023-11-12T18:33:54.566022 3445 ] Trying direct lookup
+[2023-11-12T18:33:54.566058 3445 ] No 3324t5afn84f79utcqc53j6j3n80uedek in primary storage
+[2023-11-12T18:33:54.566123 3445 ] Result: direct_cache_miss
+[2023-11-12T18:33:54.566128 3445 ] Result: primary_storage_miss
+[2023-11-12T18:33:54.566214 3445 ] lockfile_acquire: symlink /home/danil/.cache/Nuitka/ccache/7/5/stats.lock: No such file or directory
+[2023-11-12T18:33:54.566561 3445 ] Acquired lock /home/danil/.cache/Nuitka/ccache/7/5/stats.lock
+[2023-11-12T18:33:54.566638 3445 ] Releasing lock /home/danil/.cache/Nuitka/ccache/7/5/stats.lock
+[2023-11-12T18:33:54.566658 3445 ] Unlink /home/danil/.cache/Nuitka/ccache/7/5/stats.lock
+[2023-11-12T18:33:54.568145 3447 ] === CCACHE 4.5.1 STARTED =========================================
+[2023-11-12T18:33:54.568145 3447 ] Config: (default) absolute_paths_in_stderr = false
+[2023-11-12T18:33:54.568145 3447 ] Config: (default) base_dir = 
+[2023-11-12T18:33:54.568145 3447 ] Config: (environment) cache_dir = /home/danil/.cache/Nuitka/ccache
+[2023-11-12T18:33:54.568145 3447 ] Config: (default) compiler = 
+[2023-11-12T18:33:54.568145 3447 ] Config: (default) compiler_check = mtime
+[2023-11-12T18:33:54.568145 3447 ] Config: (default) compiler_type = auto
+[2023-11-12T18:33:54.568145 3447 ] Config: (default) compression = true
+[2023-11-12T18:33:54.568145 3447 ] Config: (default) compression_level = 0
+[2023-11-12T18:33:54.568145 3447 ] Config: (default) cpp_extension = 
+[2023-11-12T18:33:54.568145 3447 ] Config: (default) debug = false
+[2023-11-12T18:33:54.568145 3447 ] Config: (default) debug_dir = 
+[2023-11-12T18:33:54.568145 3447 ] Config: (default) depend_mode = false
+[2023-11-12T18:33:54.568145 3447 ] Config: (default) direct_mode = true
+[2023-11-12T18:33:54.568145 3447 ] Config: (default) disable = false
+[2023-11-12T18:33:54.568145 3447 ] Config: (default) extra_files_to_hash = 
+[2023-11-12T18:33:54.568145 3447 ] Config: (default) file_clone = false
+[2023-11-12T18:33:54.568145 3447 ] Config: (default) hard_link = false
+[2023-11-12T18:33:54.568145 3447 ] Config: (default) hash_dir = true
+[2023-11-12T18:33:54.568145 3447 ] Config: (default) ignore_headers_in_manifest = 
+[2023-11-12T18:33:54.568145 3447 ] Config: (default) ignore_options = 
+[2023-11-12T18:33:54.568145 3447 ] Config: (default) inode_cache = false
+[2023-11-12T18:33:54.568145 3447 ] Config: (default) keep_comments_cpp = false
+[2023-11-12T18:33:54.568145 3447 ] Config: (default) limit_multiple = 0.8
+[2023-11-12T18:33:54.568145 3447 ] Config: (environment) log_file = /home/danil/so/ppp.build/ccache-3432.txt
+[2023-11-12T18:33:54.568145 3447 ] Config: (default) max_files = 0
+[2023-11-12T18:33:54.568145 3447 ] Config: (default) max_size = 5.0G
+[2023-11-12T18:33:54.568145 3447 ] Config: (default) namespace = 
+[2023-11-12T18:33:54.568145 3447 ] Config: (default) path = 
+[2023-11-12T18:33:54.568145 3447 ] Config: (default) pch_external_checksum = false
+[2023-11-12T18:33:54.568145 3447 ] Config: (default) prefix_command = 
+[2023-11-12T18:33:54.568145 3447 ] Config: (default) prefix_command_cpp = 
+[2023-11-12T18:33:54.568145 3447 ] Config: (default) read_only = false
+[2023-11-12T18:33:54.568145 3447 ] Config: (default) read_only_direct = false
+[2023-11-12T18:33:54.568145 3447 ] Config: (default) recache = false
+[2023-11-12T18:33:54.568145 3447 ] Config: (default) reshare = false
+[2023-11-12T18:33:54.568145 3447 ] Config: (default) run_second_cpp = true
+[2023-11-12T18:33:54.568145 3447 ] Config: (default) secondary_storage = 
+[2023-11-12T18:33:54.568145 3447 ] Config: (environment) sloppiness = include_file_mtime, include_file_ctime
+[2023-11-12T18:33:54.568145 3447 ] Config: (default) stats = true
+[2023-11-12T18:33:54.568145 3447 ] Config: (default) stats_log = 
+[2023-11-12T18:33:54.568145 3447 ] Config: (default) temporary_dir = /run/user/1000/ccache-tmp
+[2023-11-12T18:33:54.568145 3447 ] Config: (default) umask = 
+[2023-11-12T18:33:54.568212 3447 ] Command line: /usr/bin/ccache /usr/bin/gcc -o __helpers.os -c -std=c11 -fvisibility=hidden -fwrapv -pipe -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O3 -shared -fPIC -D__NUITKA_NO_ASSERT__ -D_NUITKA_CONSTANTS_FROM_INCBIN -D_NUITKA_FROZEN=0 -D_NUITKA_MODULE -I/home/danil/miniconda3/envs/mlops_env/include/python3.11 -I. -I/home/danil/miniconda3/envs/mlops_env/lib/python3.11/site-packages/nuitka/build/include -I/home/danil/miniconda3/envs/mlops_env/lib/python3.11/site-packages/nuitka/build/static_src __helpers.c
+[2023-11-12T18:33:54.568226 3447 ] Hostname: LAPTOP-N6PDPSPL
+[2023-11-12T18:33:54.568229 3447 ] Working directory: /home/danil/so/ppp.build
+[2023-11-12T18:33:54.568232 3447 ] Compiler type: gcc
+[2023-11-12T18:33:54.568291 3447 ] Source file: __helpers.c
+[2023-11-12T18:33:54.568295 3447 ] Object file: __helpers.os
+[2023-11-12T18:33:54.568312 3447 ] Trying direct lookup
+[2023-11-12T18:33:54.568357 3447 ] No 9f8dc0llitqscv1tppa92g7ud56c7uu3o in primary storage
+[2023-11-12T18:33:54.568446 3447 ] Result: direct_cache_miss
+[2023-11-12T18:33:54.568455 3447 ] Result: primary_storage_miss
+[2023-11-12T18:33:54.568494 3447 ] lockfile_acquire: symlink /home/danil/.cache/Nuitka/ccache/7/7/stats.lock: No such file or directory
+[2023-11-12T18:33:54.568870 3447 ] Acquired lock /home/danil/.cache/Nuitka/ccache/7/7/stats.lock
+[2023-11-12T18:33:54.569008 3447 ] Releasing lock /home/danil/.cache/Nuitka/ccache/7/7/stats.lock
+[2023-11-12T18:33:54.569030 3447 ] Unlink /home/danil/.cache/Nuitka/ccache/7/7/stats.lock
+[2023-11-12T18:33:54.569142 3449 ] === CCACHE 4.5.1 STARTED =========================================
+[2023-11-12T18:33:54.569142 3449 ] Config: (default) absolute_paths_in_stderr = false
+[2023-11-12T18:33:54.569142 3449 ] Config: (default) base_dir = 
+[2023-11-12T18:33:54.569142 3449 ] Config: (environment) cache_dir = /home/danil/.cache/Nuitka/ccache
+[2023-11-12T18:33:54.569142 3449 ] Config: (default) compiler = 
+[2023-11-12T18:33:54.569142 3449 ] Config: (default) compiler_check = mtime
+[2023-11-12T18:33:54.569142 3449 ] Config: (default) compiler_type = auto
+[2023-11-12T18:33:54.569142 3449 ] Config: (default) compression = true
+[2023-11-12T18:33:54.569142 3449 ] Config: (default) compression_level = 0
+[2023-11-12T18:33:54.569142 3449 ] Config: (default) cpp_extension = 
+[2023-11-12T18:33:54.569142 3449 ] Config: (default) debug = false
+[2023-11-12T18:33:54.569142 3449 ] Config: (default) debug_dir = 
+[2023-11-12T18:33:54.569142 3449 ] Config: (default) depend_mode = false
+[2023-11-12T18:33:54.569142 3449 ] Config: (default) direct_mode = true
+[2023-11-12T18:33:54.569142 3449 ] Config: (default) disable = false
+[2023-11-12T18:33:54.569142 3449 ] Config: (default) extra_files_to_hash = 
+[2023-11-12T18:33:54.569142 3449 ] Config: (default) file_clone = false
+[2023-11-12T18:33:54.569142 3449 ] Config: (default) hard_link = false
+[2023-11-12T18:33:54.569142 3449 ] Config: (default) hash_dir = true
+[2023-11-12T18:33:54.569142 3449 ] Config: (default) ignore_headers_in_manifest = 
+[2023-11-12T18:33:54.569142 3449 ] Config: (default) ignore_options = 
+[2023-11-12T18:33:54.569142 3449 ] Config: (default) inode_cache = false
+[2023-11-12T18:33:54.569142 3449 ] Config: (default) keep_comments_cpp = false
+[2023-11-12T18:33:54.569142 3449 ] Config: (default) limit_multiple = 0.8
+[2023-11-12T18:33:54.569142 3449 ] Config: (environment) log_file = /home/danil/so/ppp.build/ccache-3432.txt
+[2023-11-12T18:33:54.569142 3449 ] Config: (default) max_files = 0
+[2023-11-12T18:33:54.569142 3449 ] Config: (default) max_size = 5.0G
+[2023-11-12T18:33:54.569142 3449 ] Config: (default) namespace = 
+[2023-11-12T18:33:54.569142 3449 ] Config: (default) path = 
+[2023-11-12T18:33:54.569142 3449 ] Config: (default) pch_external_checksum = false
+[2023-11-12T18:33:54.569142 3449 ] Config: (default) prefix_command = 
+[2023-11-12T18:33:54.569142 3449 ] Config: (default) prefix_command_cpp = 
+[2023-11-12T18:33:54.569142 3449 ] Config: (default) read_only = false
+[2023-11-12T18:33:54.569142 3449 ] Config: (default) read_only_direct = false
+[2023-11-12T18:33:54.569142 3449 ] Config: (default) recache = false
+[2023-11-12T18:33:54.569142 3449 ] Config: (default) reshare = false
+[2023-11-12T18:33:54.569142 3449 ] Config: (default) run_second_cpp = true
+[2023-11-12T18:33:54.569142 3449 ] Config: (default) secondary_storage = 
+[2023-11-12T18:33:54.569142 3449 ] Config: (environment) sloppiness = include_file_mtime, include_file_ctime
+[2023-11-12T18:33:54.569142 3449 ] Config: (default) stats = true
+[2023-11-12T18:33:54.569142 3449 ] Config: (default) stats_log = 
+[2023-11-12T18:33:54.569142 3449 ] Config: (default) temporary_dir = /run/user/1000/ccache-tmp
+[2023-11-12T18:33:54.569142 3449 ] Config: (default) umask = 
+[2023-11-12T18:33:54.569241 3449 ] Command line: /usr/bin/ccache /usr/bin/gcc -o __loader.os -c -std=c11 -fvisibility=hidden -fwrapv -pipe -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O3 -shared -fPIC -D__NUITKA_NO_ASSERT__ -D_NUITKA_CONSTANTS_FROM_INCBIN -D_NUITKA_FROZEN=0 -D_NUITKA_MODULE -I/home/danil/miniconda3/envs/mlops_env/include/python3.11 -I. -I/home/danil/miniconda3/envs/mlops_env/lib/python3.11/site-packages/nuitka/build/include -I/home/danil/miniconda3/envs/mlops_env/lib/python3.11/site-packages/nuitka/build/static_src __loader.c
+[2023-11-12T18:33:54.569257 3449 ] Hostname: LAPTOP-N6PDPSPL
+[2023-11-12T18:33:54.569260 3449 ] Working directory: /home/danil/so/ppp.build
+[2023-11-12T18:33:54.569263 3449 ] Compiler type: gcc
+[2023-11-12T18:33:54.569370 3449 ] Source file: __loader.c
+[2023-11-12T18:33:54.569381 3449 ] Object file: __loader.os
+[2023-11-12T18:33:54.569406 3449 ] Trying direct lookup
+[2023-11-12T18:33:54.569470 3449 ] No 6bd70a9co279q35todnv411smc4fsrucs in primary storage
+[2023-11-12T18:33:54.569556 3449 ] Result: direct_cache_miss
+[2023-11-12T18:33:54.569564 3449 ] Result: primary_storage_miss
+[2023-11-12T18:33:54.569600 3449 ] lockfile_acquire: symlink /home/danil/.cache/Nuitka/ccache/7/9/stats.lock: No such file or directory
+[2023-11-12T18:33:54.569921 3449 ] Acquired lock /home/danil/.cache/Nuitka/ccache/7/9/stats.lock
+[2023-11-12T18:33:54.570249 3451 ] === CCACHE 4.5.1 STARTED =========================================
+[2023-11-12T18:33:54.570249 3451 ] Config: (default) absolute_paths_in_stderr = false
+[2023-11-12T18:33:54.570249 3451 ] Config: (default) base_dir = 
+[2023-11-12T18:33:54.570249 3451 ] Config: (environment) cache_dir = /home/danil/.cache/Nuitka/ccache
+[2023-11-12T18:33:54.570249 3451 ] Config: (default) compiler = 
+[2023-11-12T18:33:54.570249 3451 ] Config: (default) compiler_check = mtime
+[2023-11-12T18:33:54.570249 3451 ] Config: (default) compiler_type = auto
+[2023-11-12T18:33:54.570249 3451 ] Config: (default) compression = true
+[2023-11-12T18:33:54.570249 3451 ] Config: (default) compression_level = 0
+[2023-11-12T18:33:54.570249 3451 ] Config: (default) cpp_extension = 
+[2023-11-12T18:33:54.570249 3451 ] Config: (default) debug = false
+[2023-11-12T18:33:54.570249 3451 ] Config: (default) debug_dir = 
+[2023-11-12T18:33:54.570249 3451 ] Config: (default) depend_mode = false
+[2023-11-12T18:33:54.570249 3451 ] Config: (default) direct_mode = true
+[2023-11-12T18:33:54.570249 3451 ] Config: (environment) disable = true
+[2023-11-12T18:33:54.570249 3451 ] Config: (default) extra_files_to_hash = 
+[2023-11-12T18:33:54.570249 3451 ] Config: (default) file_clone = false
+[2023-11-12T18:33:54.570249 3451 ] Config: (default) hard_link = false
+[2023-11-12T18:33:54.570249 3451 ] Config: (default) hash_dir = true
+[2023-11-12T18:33:54.570249 3451 ] Config: (default) ignore_headers_in_manifest = 
+[2023-11-12T18:33:54.570249 3451 ] Config: (default) ignore_options = 
+[2023-11-12T18:33:54.570249 3451 ] Config: (default) inode_cache = false
+[2023-11-12T18:33:54.570249 3451 ] Config: (default) keep_comments_cpp = false
+[2023-11-12T18:33:54.570249 3451 ] Config: (default) limit_multiple = 0.8
+[2023-11-12T18:33:54.570249 3451 ] Config: (environment) log_file = /home/danil/so/ppp.build/ccache-3432.txt
+[2023-11-12T18:33:54.570249 3451 ] Config: (default) max_files = 0
+[2023-11-12T18:33:54.570249 3451 ] Config: (default) max_size = 5.0G
+[2023-11-12T18:33:54.570249 3451 ] Config: (default) namespace = 
+[2023-11-12T18:33:54.570249 3451 ] Config: (default) path = 
+[2023-11-12T18:33:54.570249 3451 ] Config: (default) pch_external_checksum = false
+[2023-11-12T18:33:54.570249 3451 ] Config: (default) prefix_command = 
+[2023-11-12T18:33:54.570249 3451 ] Config: (default) prefix_command_cpp = 
+[2023-11-12T18:33:54.570249 3451 ] Config: (default) read_only = false
+[2023-11-12T18:33:54.570249 3451 ] Config: (default) read_only_direct = false
+[2023-11-12T18:33:54.570249 3451 ] Config: (default) recache = false
+[2023-11-12T18:33:54.570249 3451 ] Config: (default) reshare = false
+[2023-11-12T18:33:54.570249 3451 ] Config: (default) run_second_cpp = true
+[2023-11-12T18:33:54.570249 3451 ] Config: (default) secondary_storage = 
+[2023-11-12T18:33:54.570249 3451 ] Config: (environment) sloppiness = include_file_mtime, include_file_ctime
+[2023-11-12T18:33:54.570249 3451 ] Config: (default) stats = true
+[2023-11-12T18:33:54.570249 3451 ] Config: (default) stats_log = 
+[2023-11-12T18:33:54.570249 3451 ] Config: (default) temporary_dir = /run/user/1000/ccache-tmp
+[2023-11-12T18:33:54.570249 3451 ] Config: (default) umask = 
+[2023-11-12T18:33:54.570359 3451 ] ccache is disabled
+[2023-11-12T18:33:54.570379 3451 ] Failed; falling back to running the real compiler
+[2023-11-12T18:33:54.570389 3451 ] Executing /usr/bin/gcc -o __constants_data.os -c -std=c11 -fvisibility=hidden -fwrapv -pipe -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O3 -shared -fPIC -D__NUITKA_NO_ASSERT__ -D_NUITKA_CONSTANTS_FROM_INCBIN -D_NUITKA_FROZEN=0 -D_NUITKA_MODULE -I/home/danil/miniconda3/envs/mlops_env/include/python3.11 -I. -I/home/danil/miniconda3/envs/mlops_env/lib/python3.11/site-packages/nuitka/build/include -I/home/danil/miniconda3/envs/mlops_env/lib/python3.11/site-packages/nuitka/build/static_src __constants_data.c
+[2023-11-12T18:33:54.570395 3451 ] Result: disabled
+[2023-11-12T18:33:54.570730 3449 ] Releasing lock /home/danil/.cache/Nuitka/ccache/7/9/stats.lock
+[2023-11-12T18:33:54.570759 3449 ] Unlink /home/danil/.cache/Nuitka/ccache/7/9/stats.lock
