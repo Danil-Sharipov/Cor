@@ -1,0 +1,100 @@
+<nuitka-compilation-report nuitka_version="1.8.6" nuitka_commercial_version="not installed" completion="error exit message (1)" exit_message="">
+  <module name="Untitled" kind="CompiledPythonModule" usage="root_module" reason="Root module" source_path="${cwd}\Untitled.py">
+    <optimization-time pass="1" time="0.41" />
+    <optimization-time pass="2" time="0.06" />
+    <module_usages>
+      <module_usage name="pandas" finding="absolute" line="7" />
+      <module_usage name="numpy" finding="absolute" line="8" />
+      <module_usage name="torch" finding="absolute" line="9" />
+      <module_usage name="math" finding="built-in" line="10" />
+      <module_usage name="sklearn.metrics" finding="absolute" line="11" />
+      <module_usage name="sklearn.metrics.r2_score" finding="not-found" line="11" />
+      <module_usage name="sklearn.model_selection" finding="absolute" line="12" />
+      <module_usage name="sklearn.model_selection.train_test_split" finding="not-found" line="12" />
+      <module_usage name="matplotlib.pyplot" finding="absolute" line="13" />
+      <module_usage name="matplotlib" finding="absolute" line="14" />
+      <module_usage name="statsmodels.api" finding="absolute" line="15" />
+      <module_usage name="warnings" finding="absolute" line="16" />
+      <module_usage name="sklearn.linear_model" finding="absolute" line="45" />
+      <module_usage name="sklearn.linear_model.LinearRegression" finding="not-found" line="45" />
+      <module_usage name="sklearn" finding="absolute" line="92" />
+      <module_usage name="sklearn.datasets" finding="relative" line="92" />
+      <module_usage name="sklearn" finding="absolute" line="93" />
+      <module_usage name="sklearn.decomposition" finding="relative" line="93" />
+      <module_usage name="sklearn.linear_model" finding="absolute" line="141" />
+      <module_usage name="sklearn.linear_model.LogisticRegression" finding="not-found" line="141" />
+      <module_usage name="tqdm" finding="absolute" line="198" />
+      <module_usage name="tqdm.tqdm" finding="not-found" line="198" />
+      <module_usage name="sklearn.tree" finding="absolute" line="250" />
+      <module_usage name="sklearn.tree.DecisionTreeClassifier" finding="not-found" line="250" />
+      <module_usage name="sklearn.tree" finding="absolute" line="307" />
+      <module_usage name="sklearn.tree.DecisionTreeRegressor" finding="not-found" line="307" />
+      <module_usage name="sklearn.neighbors" finding="absolute" line="366" />
+      <module_usage name="sklearn.neighbors.KNeighborsClassifier" finding="not-found" line="366" />
+      <module_usage name="sklearn.metrics" finding="absolute" line="379" />
+      <module_usage name="sklearn.metrics.accuracy_score" finding="not-found" line="379" />
+      <module_usage name="sklearn.ensemble" finding="absolute" line="389" />
+      <module_usage name="sklearn.ensemble.RandomForestClassifier" finding="not-found" line="389" />
+      <module_usage name="plotly.express" finding="absolute" line="408" />
+      <module_usage name="sklearn.decomposition" finding="absolute" line="409" />
+      <module_usage name="sklearn.decomposition.PCA" finding="not-found" line="409" />
+      <module_usage name="sklearn.datasets" finding="absolute" line="430" />
+      <module_usage name="sklearn.datasets.make_moons" finding="not-found" line="430" />
+      <module_usage name="sklearn.metrics" finding="absolute" line="431" />
+      <module_usage name="sklearn.metrics.accuracy_score" finding="not-found" line="431" />
+      <module_usage name="sklearn.neighbors" finding="absolute" line="432" />
+      <module_usage name="sklearn.neighbors.KNeighborsClassifier" finding="not-found" line="432" />
+      <module_usage name="sklearn.model_selection" finding="absolute" line="433" />
+      <module_usage name="sklearn.model_selection.train_test_split" finding="not-found" line="433" />
+      <module_usage name="numpy" finding="absolute" line="434" />
+      <module_usage name="plotly.express" finding="absolute" line="435" />
+      <module_usage name="pandas" finding="absolute" line="436" />
+      <module_usage name="sklearn.datasets" finding="absolute" line="442" />
+      <module_usage name="sklearn.datasets.make_moons" finding="not-found" line="442" />
+      <module_usage name="plotly.graph_objects" finding="absolute" line="498" />
+      <module_usage name="torch" finding="absolute" line="516" />
+      <module_usage name="plotly.graph_objects" finding="absolute" line="517" />
+      <module_usage name="sympy.parsing.sympy_parser" finding="absolute" line="523" />
+      <module_usage name="sympy" finding="absolute" line="525" />
+      <module_usage name="math" finding="built-in" line="527" />
+      <module_usage name="math" finding="built-in" line="541" />
+    </module_usages>
+  </module>
+  <performance>
+    <memory_usage name="after_launch" value="35045376" />
+    <memory_usage name="before_c_code_generation" value="37052416" />
+    <memory_usage name="before_running_scons" value="41877504" />
+  </performance>
+  <data_composer blob_size="4516" total="397">
+    <module_data filename="__bytecode.const" input_size="0" blob_name=".bytecode" blob_size="3" />
+    <module_data filename="__constants.const" input_size="1668" blob_name="" blob_size="685" />
+    <module_data filename="module.Untitled.const" input_size="7134" blob_name="Untitled" blob_size="3788" />
+  </data_composer>
+  <command_line>
+    <option value="--module" />
+    <option value="Untitled.py" />
+  </command_line>
+  <plugins>
+    <plugin name="anti-bloat" user_enabled="no" />
+    <plugin name="eventlet" user_enabled="no" />
+    <plugin name="gi" user_enabled="no" />
+    <plugin name="implicit-imports" user_enabled="no" />
+    <plugin name="options-nanny" user_enabled="no" />
+    <plugin name="pkg-resources" user_enabled="no" />
+    <plugin name="transformers" user_enabled="no" />
+  </plugins>
+  <distributions />
+  <python python_exe="${sys.real_prefix}\python.exe" python_flavor="CPython Official" python_version="3.8.7" os_name="Windows" arch_name="x86_64">
+    <search_path>
+      <path value="${cwd}" />
+      <path value="${sys.real_prefix}\DLLs" />
+      <path value="${sys.real_prefix}\lib" />
+      <path value="${sys.real_prefix}" />
+      <path value="~\AppData\Roaming\Python\Python38\site-packages" />
+      <path value="${sys.real_prefix}\lib\site-packages" />
+      <path value="${sys.real_prefix}\lib\site-packages\win32" />
+      <path value="${sys.real_prefix}\lib\site-packages\win32\lib" />
+      <path value="${sys.real_prefix}\lib\site-packages\Pythonwin" />
+    </search_path>
+  </python>
+</nuitka-compilation-report>
